@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.key
+secrets.py
+
+# API Keys and Tokens
+*token*
+*api_key*
+*secret*
+config/secrets.yaml
+
+# Data Files (large datasets)
+*.csv
+*.xlsx
+*.xls
+!data/sample/*.csv
+!data/sample/*.xlsx
+
+# Power BI Files (often >100MB)
+*.pbix
+!dashboards/*.pbix  # Keep dashboard file if <100MB
+*.pbit
+
+# Checkpoints
+checkpoint_*.json
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Output Files (generated during runs)
+output/
+outputs/
+results/
+!data/sample/  # Keep sample outputs
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*~
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Documentation Build
+site/
+docs/_build/
+
+# Large Files (use Git LFS for these)
+# *.pdf  # Uncomment if you have many large PDFs
+
+# Keep these files
+!README.md
+!LICENSE
+!requirements.txt
+!.gitignore
+!setup.py
