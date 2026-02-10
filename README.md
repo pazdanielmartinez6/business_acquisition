@@ -110,46 +110,7 @@ This project demonstrates a **full-stack data engineering and business intellige
 └─────────────────────────────────┘
 ```
 
----
 
-## 📁 Repository Structure
-
-```
-business-intelligence-pipeline/
-│
-├── src/
-│   ├── business_app15112025.py          # Main API client & data extraction
-│   └── financial_analyzer.py            # Financial metrics & analysis engine
-│
-├── dashboards/
-│   └── First_attempt_27112025.pbix      # Power BI dashboard
-│
-├── data/
-│   ├── sample/
-│   │   ├── sample_output.csv            # Sample of enriched data
-│   │   └── sample_top20.csv             # Sample top prospects
-│   └── schemas/
-│       └── data_schema.md               # Data dictionary
-│
-├── docs/
-│   ├── API_INTEGRATION.md               # API setup & usage guide
-│   ├── METRICS_EXPLAINED.md             # Composite scoring methodology
-│   └── DASHBOARD_GUIDE.md               # Power BI dashboard user guide
-│
-├── tests/
-│   ├── test_business_app.py
-│   └── test_financial_analyzer.py
-│
-├── assets/
-│   └── dashboard_preview.png            # Dashboard screenshot
-│
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
 
 ## 🛠️ Technologies Used
 
@@ -330,9 +291,6 @@ years_span = newest_year - oldest_year
 ## 📚 Documentation
 
 - [**API Integration Guide**](docs/API_INTEGRATION.md) - Setup, authentication, rate limits
-- [**Metrics Methodology**](docs/METRICS_EXPLAINED.md) - Composite scoring explained
-- [**Dashboard User Guide**](docs/DASHBOARD_GUIDE.md) - Power BI navigation
-- [**Data Schema**](data/schemas/data_schema.md) - Column definitions
 
 ---
 
@@ -399,18 +357,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**[Your Name]**
+**[Daniel Martinez]**
 
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- 📧 Email: (pazdanielmartinez6@gmail.com)
+- 💼 LinkedIn: (https://www.linkedin.com/in/daniel-paz-martinez/)
 
 ---
 
 ## 🙏 Acknowledgments
 
 - **OpenCorporates** for providing accessible corporate data API
-- **Power BI Community** for dashboard inspiration
 - Inspired by the principles in *Buy Then Build* by Walker Deibel
 
 ---
